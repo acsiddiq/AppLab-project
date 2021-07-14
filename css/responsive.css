@@ -1,0 +1,335 @@
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+
+
+/***************************
+  header section css
+***************************/
+
+.navbar-nav {
+  background: #fff !important;
+}
+.navbar-nav {
+  background: #fff;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+.navbar-toggler {
+  border: 1px solid #fff !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-nav .nav-link {
+  color: black !important;
+  font-weight: 400 !important;
+}
+
+/***************************
+  banner1 section css
+***************************/
+h1, h2 {
+  font-size: 26px !important;
+}
+h1, h2, h3, h4, h5, h6{
+  width: auto !important;
+}
+p {
+  width: auto !important;
+  font-size: 15px !important;
+}
+
+.banner1-area {
+  height: auto;
+  padding: 30px 0px;
+}
+.banner1-left {
+    text-align: center;
+}
+.editiors {
+  width: auto;
+}
+.tik {
+  text-align: left;
+}
+.editiors h3 {
+  font-size: 15px !important;
+  text-align: left !important;
+}
+.banner1-left h1 {
+  font-size: 26px !important;
+  line-height: normal;
+  font-weight: 600;
+}
+.banner1-left p {
+  width: auto;
+}
+.buton span a {
+  display: block;
+  padding: 15px 0px;
+}
+
+
+/***************************
+  slider1 section css
+***************************/
+.slide1-area {
+  padding: 30px 0px;
+}
+.slide1-img ul{
+  padding: 0;
+}
+.slider1-top h5 {
+  font-size: 27px;
+}
+/***************************
+  features section css
+***************************/
+
+
+.features-area {
+  padding: 30px 0px;
+}
+.features-right-top {
+  text-align: center;
+}
+.features-right-bottom {
+  text-align: center;
+}
+.features-right-bottom .col-md-2 {
+  margin: 0 auto;
+}
+
+/***************************
+  features section css
+***************************/
+
+.jackpots-area {
+  width: 100%;
+  padding: 30px 0px;
+  border-bottom: 1px solid #ede8e8;
+}
+.jackpots-1-text-left h1 {
+  padding: 0;
+}
+.jackpots-1-text-left {
+   border: none;
+   text-align: center;
+}
+.jackpots-1-text-right p {
+  margin-top: 40px;
+  margin-left: 0;
+  text-align: center;
+}
+.jackpots-sec1, .jackpots-sec2, .jackpots-sec3 {
+  text-align: center;
+}
+.jackpots-sec1-img, .jackpots-sec2-img, .jackpots-sec3-img {
+    margin: 0 auto;
+}
+.jackpots-1 {
+    margin: 0 auto;
+}
+.jackpots-sec3 {
+  padding-top: 0px;
+}
+.jackpots-3-text {
+  text-align: center;
+}
+
+
+/***************************
+  Details section css
+***************************/
+
+.Details-area {
+  padding: 30px 0px;
+}
+.Details-area .Details-middle .col-md-4 {
+  padding-top: 30px;
+}
+.Details-area .Details-bottom .col-md-4 {
+  padding-top: 30px;
+}
+.Details-middle {
+  padding-top: 0px;
+}
+.Details-bottom {
+  text-align: center;
+  padding-top: 0px;
+}
+
+/***************************
+  ultimate section css
+***************************/
+
+.ultimate-area {
+  padding: 30px 0px;
+}
+.ultimate-text {
+  text-align: center;
+}
+.set-img2 {
+  padding: 17px 0px 0px 0px;
+}
+.ultimate-sec1-1-img, .ultimate-sec1-2-img {
+  margin: 0 auto;
+}
+.ultimate-sec2-1-img, .ultimate-sec2-2-img {
+  margin: 0 auto;
+}
+.ultimate-img {
+  padding-top: 20px;
+}
+
+/***************************
+  price section css
+***************************/
+
+.all-2-button {
+  width: auto;
+}
+.all-2-button button {
+  padding: 12px 29px;
+}
+
+/***************************
+  meet section css
+***************************/
+
+.meet-area {
+  padding: 80px 0px;
+}
+.meet-text-top {
+  text-align: center;
+  padding: 40px 10px 0px 10px;
+}
+
+/******************
+  meet owl
+*******************/
+
+.meet-area .owl-nav .owl-next {
+  right: 4% !important;
+  bottom: -15% !important;
+  font-size: 18px !important;
+  width: 45px !important;
+  height: 45px !important;
+}
+.meet-area .owl-nav .owl-prev {
+  right: 23% !important;
+  bottom: -15% !important;
+  font-size: 18px !important;
+  width: 45px !important;
+  height: 45px !important;
+}
+
+/*************************************
+  frequently accordion-section
+**************************************/
+
+.accordion-button {
+  background: #f5f7fa !important;
+  box-shadow: none !important;
+  color: #000000 !important;
+  padding: 13px;
+  font-size: 14px;
+}
+.accordion-body {
+  width: auto;
+  padding: 15px;
+}
+.accordion-item {
+  margin-bottom: 10px;
+}
+.sky {
+  width: auto;
+}
+
+/***************************
+  app section css
+***************************/
+
+.app-text {
+  text-align: center;
+}
+.app-text img {
+  padding-right: 0px;
+  padding-top: 15px;
+}
+/***************************
+  footer section css
+***************************/
+.footer-area {
+  margin-top: -22px;
+}
+.footer-text-top ul {
+  padding: 30px 0px;
+}
+.footer-text-top ul li {
+  display: block;
+  padding: 5px 0px;
+}
